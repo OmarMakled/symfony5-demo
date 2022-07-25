@@ -24,7 +24,7 @@ class LogRepository extends ServiceEntityRepository
    *
    * @param array $criteria
    *  $criteria = [
-   *    'servicesNames',
+   *    'serviceNames',
    *    'statusCode',
    *    'startDate',
    *    'endDate'
