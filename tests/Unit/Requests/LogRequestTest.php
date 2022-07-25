@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Unit\Request;
+namespace Tests\Unit\Requests;
 
 use App\Requests\LogRequest;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;

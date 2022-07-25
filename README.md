@@ -50,7 +50,7 @@ Time: 00:03.921, Memory: 30.00 MB
 OK (16 tests, 42 assertions)
 ```
 
-## Import logs file
+## Import logs file "inside container"
 
 ```
 ./bin/console app:import logs.txt
@@ -77,5 +77,11 @@ OK (16 tests, 42 assertions)
 
 **Invalid parameter 400**
 "bad input parameter"
+
+## Fixtures
+
+```
+make fixtures
+```
 
 Happy Code!

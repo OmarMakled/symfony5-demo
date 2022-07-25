@@ -54,7 +54,8 @@
             "assets:install %PUBLIC_DIR%": "symfony-cmd"
         },
         "ensure-db-exists":{
-            "db": "bin/console doctrine:database:create  --if-not-exists"
+            "db": "bin/console doctrine:database:create  --if-not-exists",
+            "schema": "bin/console doctrine:schema:update  --force"
         },
         "post-install-cmd": [
             "@auto-scripts",

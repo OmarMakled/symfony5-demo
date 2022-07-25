@@ -12,6 +12,10 @@ run:
 install:
 	@docker-compose exec --user="php" -T devbox-service composer install
 
+.PHONY: fixtures
+fixtures:
+	@docker-compose exec --user="php" -T devbox-service /bin/sh -c './bin/console doctrine:fixtures:load -n'
+
 .PHONY: stop
 stop:
 	@docker-compose stop
