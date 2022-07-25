@@ -63,8 +63,8 @@ OK (16 tests, 42 assertions)
 
 | Param         | Type     | Example | Required |
 |--------------|-----------|------------|------------| 
-| startDate | string     |  startDate=2021-08-17 09:21:53     | optional
-| endDate | string     |  endDate=2021-08-17 09:21:53     | optional
+| startDate | datetime     |  startDate=2021-08-17 09:21:53     | optional
+| endDate | datetime     |  endDate=2021-08-17 09:21:53     | optional
 | statusCode | int     |  statusCode=200     | optional
 | serviceNames | string, array     |  serviceNames=foo,bar  serviceNames[]=foo&servicesName[]=bar   | optional
 
